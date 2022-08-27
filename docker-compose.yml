@@ -1,0 +1,10 @@
+services:
+  mongo:
+    image: mongo:5
+    ports:
+      - 27017:27017
+    networks:
+      - net
+
+networks:
+  net: {}
